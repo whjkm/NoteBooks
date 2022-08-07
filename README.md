@@ -11,9 +11,9 @@ NoteBooks for learning
 
 ## Source
 
-[free-programming-books](!https://github.com/EbookFoundation/free-programming-books)
+[free-programming-books](https://github.com/EbookFoundation/free-programming-books)
 
-[cs-self-learning](!https://csdiy.wiki/)
+[cs-self-learning](https://csdiy.wiki/)
 
 
 
