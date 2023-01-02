@@ -6,7 +6,6 @@
 
 ### Lecture 02.Shell Tools and Scripting
 
-
 ### Lecture 03.Editors (Vim)
 
 ### Lecture 04.Data Wrangling
