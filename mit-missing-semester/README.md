@@ -5,12 +5,16 @@
 ### Lecture 01.Course overview + the shell
 
 ### Lecture 02.Shell Tools and Scripting
+[course note](02.Shell%20tools%20and%20Scripting.md)
 
 ### Lecture 03.Editors (Vim)
+[course note](03.Editors(vim).md)
 
 ### Lecture 04.Data Wrangling
+[course note](04.Data%20Wrangling.md)
 
 ### Lecture 05.Command-line Environment
+[course note](05.Command-line%20Environment.md)
 
 ### Lecture 06.Version Control (Git)
 
