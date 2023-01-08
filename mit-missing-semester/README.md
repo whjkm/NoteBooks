@@ -14,6 +14,11 @@
 [course note](04.Data%20Wrangling.md)
 
 ### Lecture 05.Command-line Environment
+
+- shell
+- tmux
+- dotfile
+  
 [course note](05.Command-line%20Environment.md)
 
 ### Lecture 06.Version Control (Git)
