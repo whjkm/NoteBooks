@@ -20,7 +20,7 @@
 
 `fork()` 一般不能在多线程程序中调用。
 
-[参考blog](http://www.cppblog.com/lymons/archive/2008/06/01/51836.html)
+[准则3：多线程程序里不准使用fork](http://www.cppblog.com/lymons/archive/2008/06/01/51836.html)
 
 **Solution**:
 
@@ -32,8 +32,10 @@
 
 在多线程程序中，使用`signal`的第一原则是**不要使用`signal`**。
 
-http://www.cppblog.com/lymons/archive/2008/06/01/51838.html
-http://www.cppblog.com/lymons/archive/2008/06/01/51837.html
+Reference:
+[UNIX上的C++程序设计守则(1)](http://www.cppblog.com/lymons/archive/2008/06/01/51838.html)
+
+[UNIX上C++程序设计守则 (2)](http://www.cppblog.com/lymons/archive/2008/06/01/51837.html)
 
 
 
