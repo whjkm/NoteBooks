@@ -1,3 +1,10 @@
+- [Chapter 04](#chapter-04)
+  - [多线程与IO](#多线程与io)
+  - [用RAII包装文件描述符](#用raii包装文件描述符)
+    - [多线程与fork()](#多线程与fork)
+    - [多线程与Signal](#多线程与signal)
+
+# Chapter 04
 
 ## 多线程与IO
 
@@ -33,6 +40,7 @@
 在多线程程序中，使用`signal`的第一原则是**不要使用`signal`**。
 
 Reference:
+
 [UNIX上的C++程序设计守则(1)](http://www.cppblog.com/lymons/archive/2008/06/01/51838.html)
 
 [UNIX上C++程序设计守则 (2)](http://www.cppblog.com/lymons/archive/2008/06/01/51837.html)
