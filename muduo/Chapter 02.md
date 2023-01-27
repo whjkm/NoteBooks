@@ -1,6 +1,7 @@
 - [Chapter 02](#chapter-02)
   - [进程同步原则](#进程同步原则)
   - [互斥器（mutex）](#互斥器mutex)
+  - [条件变量（condition variable）](#条件变量condition-variable)
 
 # Chapter 02
 
@@ -23,7 +24,29 @@
 - 不使用跨进程的`mutex`, 进程间通信只用`TCP sockets`。
 - 加锁，解锁在同一个线程。
 
+## 条件变量（condition variable）
+
+from [condition variable wiki](https://en.wikipedia.org/wiki/Monitor_(synchronization)#Condition_variables)
+> Conceptually a condition variable is a queue of threads, associated with a mutex, on which a thread may wait for some condition to become true. Thus each condition variable c is associated with an assertion Pc. While a thread is waiting on a condition variable, that thread is not considered to occupy the monitor, and so other threads may enter the monitor to change the monitor's state. In most types of monitors, these other threads may signal the condition variable c to indicate that assertion Pc is true in the current state. 
 
 
+对于`wait`端：
 
-  
+- 必须与`mutex`一起使用，读写需受到此`mutex`的保护。
+- 在`mutex`已上锁的时候才能调用`wait()`。
+- 把判断布尔条件和`wait()`放到`while`循环中。
+
+对于`signal/broadcast`端：
+
+- 不一定要在`mutex`已经上锁的情况下调用`signal`(理论上)。
+- 在`signal`之前一般要修改布尔表达式。
+- 修改布尔表达式通常要用`mutex`保护（至少用做`full memory barrier`）。
+- 注意区分`signal` 和 `broadcast`：“`broadcast`通常用于表明状态变化，`signal`通常用于表示资源可用。
+
+[spurious wakeup](https://www.jianshu.com/p/0eff666a4875):
+
+> On a multi-processor, it may be impossible for an implementation of `pthread_cond_signal()` to avoid the unblocking of more than one thread blocked on a condition variable.
+The effect is that more than one thread can return from its call to `pthread_cond_wait()` or `pthread_cond_timedwait()` as a result of one call to `pthread_cond_signal()`. This effect is called “spurious wakeup”. Note that the situation is self-correcting in that the number of threads that are so awakened is finite; for example, the next thread to call `pthread_cond_wait()` after the sequence of events above blocks.
+While this problem could be resolved, the loss of efficiency for a fringe condition that occurs only rarely is unacceptable, especially given that one has to check the predicate associated with a condition variable anyway. Correcting this problem would unnecessarily reduce the degree of concurrency in this basic building block for all higher-level synchronization operations.
+
+
