@@ -2,6 +2,7 @@
   - [进程同步原则](#进程同步原则)
   - [互斥器（mutex）](#互斥器mutex)
   - [条件变量（condition variable）](#条件变量condition-variable)
+  - [读写锁（Readers-Writer lock, rwlock）](#读写锁readers-writer-lock-rwlock)
 
 # Chapter 02
 
@@ -48,5 +49,21 @@ from [condition variable wiki](https://en.wikipedia.org/wiki/Monitor_(synchroniz
 > On a multi-processor, it may be impossible for an implementation of `pthread_cond_signal()` to avoid the unblocking of more than one thread blocked on a condition variable.
 The effect is that more than one thread can return from its call to `pthread_cond_wait()` or `pthread_cond_timedwait()` as a result of one call to `pthread_cond_signal()`. This effect is called “spurious wakeup”. Note that the situation is self-correcting in that the number of threads that are so awakened is finite; for example, the next thread to call `pthread_cond_wait()` after the sequence of events above blocks.
 While this problem could be resolved, the loss of efficiency for a fringe condition that occurs only rarely is unacceptable, especially given that one has to check the predicate associated with a condition variable anyway. Correcting this problem would unnecessarily reduce the degree of concurrency in this basic building block for all higher-level synchronization operations.
+
+## 读写锁（Readers-Writer lock, rwlock）
+
+- 首选`mutex`,一般不用`rwlock`。
+  
+
+[read-copy-update(RCU)](https://en.wikipedia.org/wiki/Read-copy-update)
+> In computer science, read-copy-update (RCU) is a synchronization mechanism that avoids the use of lock primitives while multiple threads concurrently read and update elements that are linked through pointers and that belong to shared data structures (e.g., linked lists, trees, hash tables).[1]
+
+[memory barrier](https://en.wikipedia.org/wiki/Memory_barrier)
+
+> In computing, a memory barrier, also known as a membar, memory fence or fence instruction, is a type of barrier instruction that causes a central processing unit (CPU) or compiler to enforce an ordering constraint on memory operations issued before and after the barrier instruction. This typically means that operations issued prior to the barrier are guaranteed to be performed before operations issued after the barrier.
+
+[volatile](https://www.runoob.com/w3cnote/c-volatile-keyword.html)
+> A volatile specifier is a hint to a compiler that an object may change its value in ways not specified by the language so that aggressive optimizations must be avoided.
+
 
 
