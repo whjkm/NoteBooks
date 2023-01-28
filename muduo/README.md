@@ -8,9 +8,18 @@
 
 《C++ 沉思录》
 
+[note](Chapter%2001.md)
+
 ## Chapter 02
 
 [posix-tutorials](https://github.com/LLNL/HPC-Tutorials/tree/main/posix)
+
+[note](Chapter%2002.md)
+
+## Chapter 03
+
+
+
 
 
 

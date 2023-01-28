@@ -65,5 +65,3 @@ While this problem could be resolved, the loss of efficiency for a fringe condit
 [volatile](https://www.runoob.com/w3cnote/c-volatile-keyword.html)
 > A volatile specifier is a hint to a compiler that an object may change its value in ways not specified by the language so that aggressive optimizations must be avoided.
 
-
-
