@@ -18,6 +18,12 @@
 
 ## Chapter 03
 
+[note](Chapter%2003.md)
+
+## Chapter 04
+
+[note](Chapter%2004.md)
+
 
 
 
