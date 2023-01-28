@@ -5,9 +5,9 @@ NoteBooks for learning
 
 |Folder|Type|Description|
 |:-|:-|:-|
-|mit-missing-semester|course|[missing-semester](https://missing.csail.mit.edu/) is a introductory course for some tools. [中文版](https://missing-semester-cn.github.io/)|
-|CSAPP|course/book|Computer Systems: A Programmer's Perspective|
-|muduo|book/code|[`muduo`](https://github.com/chenshuo/muduo)|
+|[mit-missing-semester](mit-missing-semester/README.md)|course|[missing-semester](https://missing.csail.mit.edu/) is a introductory course for some tools. [中文版](https://missing-semester-cn.github.io/)|
+|[CSAPP](CSAPP/README.md)|course/book|Computer Systems: A Programmer's Perspective|
+|[muduo](muduo/README.md)|book/code|[`muduo`](https://github.com/chenshuo/muduo)|
 
 
 
