@@ -28,11 +28,16 @@
 
 [note](Chapter%2005.md)
 
-## Chatper 06
+## Chapter 06
 
 [学之者生，用之者死——ACE历史与简评](https://blog.csdn.net/Solstice/article/details/5364096)
 
 [note](Chapter%2006.md)
+
+## Chapter 10
+
+《c++语言的设计和演化》
+《The Development of the C Language》
 
 
 
