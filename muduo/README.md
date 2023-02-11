@@ -38,6 +38,9 @@
 
 《c++语言的设计和演化》
 《The Development of the C Language》
+《The Art of Unix Programming》
+《Expert C Programming: Deep C Secrets》
+《程序员的自我修养——链接、装载与库》
 
 
 
