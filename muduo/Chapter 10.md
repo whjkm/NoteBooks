@@ -1,5 +1,6 @@
 - [Chapter 10](#chapter-10)
     - [为什么C语言需要预处理](#为什么c语言需要预处理)
+  - [C++的编译模型](#c的编译模型)
 
 # Chapter 10
 
@@ -22,4 +23,15 @@ C++语言的三大约束：
 
 [恐怖的C++语言](https://coolshell.cn/articles/1724.html)
 
-  
+## C++的编译模型
+
+- 单遍编译
+- 向前声明
+
+[C++ 风格指南](https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/contents/)
+
+[LLVM编程规范](https://llvm.org/docs/CodingStandards.html)
+
+[LLVM编程规范（译）](https://www.guyuemeng.com/post/pgl_cc++/coding_guide/llvm%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83%E8%AF%91/)
+
+
