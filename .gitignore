@@ -1,6 +1,11 @@
 # token
 .obsidian/plugins/obsidian-local-rest-api/data.json
 
+# no upload
+*.pdf
+*.epub
+*.mobi
+
 
 # Prerequisites
 *.d
