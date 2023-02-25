@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "310d37e43c67ec34",
+    "type": "split",
+    "children": [
+      {
+        "id": "757da2a2bccac529",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "704c40ee7e58a20a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "313a3994f15c01f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d2b08ff7e5d1097",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dae22dd9786538ba",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "af67fd890fcd8f56",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3269a62c005645e3",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5ffdb6ab161cf834",
+    "type": "split",
+    "children": [
+      {
+        "id": "18c115c4a3fc4cb4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf2f339b9639e8bc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1b6090280640d08d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Annotator/Reactor2-93.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d1f0d4cb4731246b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Annotator/Reactor2-93.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7d8c1d7d84a1212b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Annotator/Reactor2-93.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "dae22dd9786538ba",
+  "lastOpenFiles": [
+    "Annotator/reactor-siemens.md",
+    "Annotator/Reactor2-93.md",
+    "paper/Reactor2-93.pdf",
+    "test.md",
+    "未命名.canvas",
+    "README.md",
+    "muduo/Chapter 01.md",
+    "muduo/Chapter 02.md",
+    "muduo/Chapter 03.md",
+    "muduo/Chapter 04.md",
+    "2023-02-25.md",
+    "paper/1454456.1454462.pdf",
+    "paper/reactor-siemens.pdf",
+    "muduo/Chapter 10.md",
+    "misc/6-看到一句话，心有戚戚.md",
+    "muduo/README.md"
+  ]
+}
