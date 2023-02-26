@@ -4,15 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "757da2a2bccac529",
+        "id": "a149cecff29f2afb",
         "type": "tabs",
         "children": [
           {
-            "id": "704c40ee7e58a20a",
+            "id": "3e7e76c251a899fc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "misc/8-看到一句话，心有戚戚.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "fdd704033a2d51cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3828ef84433a6903",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "muduo/Chapter 10.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -92,14 +116,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Annotator/Reactor2-93.md",
+                "file": "misc/8-看到一句话，心有戚戚.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -109,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Annotator/Reactor2-93.md",
+                "file": "misc/8-看到一句话，心有戚戚.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,11 +145,33 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Annotator/Reactor2-93.md"
+                "file": "misc/8-看到一句话，心有戚戚.md"
+              }
+            }
+          },
+          {
+            "id": "977aa7e72ae0905c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "d68c288c38576c6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "muduo/Chapter 10.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -139,26 +185,42 @@
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dae22dd9786538ba",
+  "active": "3e7e76c251a899fc",
   "lastOpenFiles": [
-    "paper/Reactor2-93.pdf",
+    "muduo/Chapter 10.md",
+    "muduo/Chapter 06.md",
+    "muduo/Chapter 05.md",
+    "muduo/Chapter 04.md",
+    "README.md",
+    "muduo/Chapter 03.md",
+    "muduo/Chapter 02.md",
+    "muduo/Chapter 01.md",
+    "misc/8-看到一句话，心有戚戚.md",
+    "muduo/README.md",
+    "mit-missing-semester/02.Shell tools and Scripting.md",
+    "misc/9-玩转 Obsidian 02：基础设置篇@annote.md",
+    "misc/9-我的 Obsidian 工作流：模板 + QuickAdd+Dataview 快速创建和自动索引@annote.md",
     "Annotator/reactor-siemens.md",
     "Annotator/Reactor2-93.md",
-    "test.md",
-    "未命名.canvas",
-    "README.md",
-    "muduo/Chapter 01.md",
-    "muduo/Chapter 02.md",
-    "muduo/Chapter 03.md",
-    "muduo/Chapter 04.md",
-    "2023-02-25.md",
-    "paper/1454456.1454462.pdf",
-    "paper/reactor-siemens.pdf",
-    "muduo/Chapter 10.md",
+    "Annotator/dtor_meets_mt.md",
+    "misc/7-快速掌握一个语言最常用的 50％.md",
+    "misc/8-看到一句话，心有戚戚@annote.md",
+    "misc/function_bind 的救赎（上）.md",
+    "6-看到一句话，心有戚戚.md",
+    "[.md",
     "misc/6-看到一句话，心有戚戚.md",
-    "muduo/README.md"
+    "misc/6-看到一句话，心有戚戚@annote.md",
+    "未命名.canvas",
+    "快速掌握一个语言最常用的 50％.md",
+    "misc/function_bind 的救赎.md",
+    "misc/快速掌握一个语言最常用的 50％.md",
+    "Annotator/未命名",
+    "paper/Reactor2-93.pdf",
+    "paper/1454456.1454462.pdf",
+    "paper/reactor-siemens.pdf"
   ]
 }

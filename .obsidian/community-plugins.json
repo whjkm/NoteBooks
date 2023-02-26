@@ -3,5 +3,9 @@
   "dataview",
   "obsidian-banners",
   "obsidian-annotator",
-  "obsidian-linter"
+  "obsidian-linter",
+  "obsidian-auto-link-title",
+  "obsidian-image-auto-upload-plugin",
+  "obsidian-advanced-uri",
+  "table-editor-obsidian"
 ]
