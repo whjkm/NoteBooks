@@ -21,6 +21,7 @@
 
 ## C++中可能出现的内存问题
 
+	[[dtor_meets_mt#^g00i5hnssz]]
 - 缓冲区溢出(`buffer overrun`)：使用`std::vector<char>/std::string`或自己编写`Buffer class`来管理缓冲区。
 - 空悬指针/野指针: 使用`shared_ptr/weak_ptr`。
 - 重复释放(`double delete`)：使用`scoped_ptr`，只在对象析构的时候释放一次。
@@ -31,7 +32,8 @@
 
 [[dtor_meets_mt]]  [当析构函数遇到多线程](https://blog.csdn.net/Solstice/article/details/5238671?spm=1001.2014.3001.5501)  
 
-[快速掌握一个语言最常用的50%](https://blog.csdn.net/myan/article/details/3144661?spm=1001.2014.3001.5501)  [[7-快速掌握一个语言最常用的 50％]]
+[快速掌握一个语言最常用的50%](https://blog.csdn.net/myan/article/details/3144661?spm=1001.2014.3001.5501)  
+[[快速掌握一个语言最常用的 50％#^719389]]
 
 [function/bind的救赎（上）](https://blog.csdn.net/myan/article/details/5928531?spm=1001.2014.3001.5501)  [[function_bind 的救赎（上）]]
 
