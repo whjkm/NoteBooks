@@ -1,6 +1,9 @@
 # token
 .obsidian/plugins/obsidian-local-rest-api/data.json
 
+# diary
+/diary
+
 # no upload
 *.pdf
 *.epub
