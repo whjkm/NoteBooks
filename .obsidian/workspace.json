@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5e0e294a7a9dbab3",
+        "id": "d7e454d4d20a050f",
         "type": "tabs",
         "children": [
           {
-            "id": "4d62538210e11261",
+            "id": "c48181a595274d42",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "misc/function_bind 的救赎（上）.md",
+                "file": "mit-missing-semester/04.Data Wrangling.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "misc/function_bind 的救赎（上）.md",
+                "file": "mit-missing-semester/04.Data Wrangling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "misc/function_bind 的救赎（上）.md",
+                "file": "mit-missing-semester/04.Data Wrangling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "misc/function_bind 的救赎（上）.md"
+                "file": "mit-missing-semester/04.Data Wrangling.md"
               }
             }
           },
@@ -159,8 +159,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -178,37 +177,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4d62538210e11261",
+  "active": "c48181a595274d42",
   "lastOpenFiles": [
+    "mit-missing-semester/03.Editors(vim).md",
+    "mit-missing-semester/04.Data Wrangling.md",
+    "mit-missing-semester/05.Command-line Environment.md",
+    "mit-missing-semester/02.Shell tools and Scripting.md",
+    "misc/3000 + 小时积累的学习工作流.md",
+    "diary/2023-06-17.md",
+    "未命名.canvas",
+    "mit-missing-semester/README.md",
+    "README.md",
+    "paper/Reactor2-93.pdf",
+    "03.Ed.md",
+    "().md",
+    "mit-missing-semester/07.Debugging and Profiling.md",
+    "mit-missing-semester/06.Version Control (Git).md",
+    "misc/function_bind 的救赎（上）.md",
     "misc/Conan.md",
     "misc/8-看到一句话，心有戚戚.md",
     "misc/快速掌握一个语言最常用的 50％.md",
-    "misc/3000 + 小时积累的学习工作流.md",
     "CSAPP/README.md",
-    "diary/2023-06-17.md",
-    "README.md",
     "diary",
-    "未命名.canvas",
     "Annotator/dtor_meets_mt.md",
     "Annotator/reactor-siemens.md",
-    "paper/Reactor2-93.pdf",
     "muduo/Chapter 02.md",
     "muduo/Chapter 04.md",
     "muduo/Chapter 06.md",
     "muduo/Chapter 10.md",
     "muduo/Chapter 05.md",
     "muduo/Chapter 01.md",
-    "misc/function_bind 的救赎（上）.md",
-    "muduo/README.md",
-    "muduo/Chapter 03.md",
-    "mit-missing-semester/02.Shell tools and Scripting.md",
-    "misc/9-玩转 Obsidian 02：基础设置篇@annote.md",
-    "misc/9-我的 Obsidian 工作流：模板 + QuickAdd+Dataview 快速创建和自动索引@annote.md",
-    "Annotator/Reactor2-93.md",
-    "misc/7-快速掌握一个语言最常用的 50％.md",
-    "misc/8-看到一句话，心有戚戚@annote.md",
-    "6-看到一句话，心有戚戚.md",
-    "[.md",
     "Annotator/未命名",
     "paper/1454456.1454462.pdf",
     "paper/reactor-siemens.pdf"
